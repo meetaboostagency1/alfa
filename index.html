@@ -4,10 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Trade With Munaaf</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
 <style>
+
 *{
 margin:0;
 padding:0;
@@ -16,207 +18,202 @@ font-family:'Poppins',sans-serif;
 }
 
 body{
-background:#04120d;
-color:#fff;
+background:#0f172a;
 display:flex;
 justify-content:center;
 align-items:center;
 min-height:100vh;
-padding:20px;
-overflow-x:hidden;
+color:#fff;
 }
 
-.bg{
-position:fixed;
-inset:0;
-background:
-radial-gradient(circle at top right,#10b98133,transparent 40%),
-radial-gradient(circle at bottom left,#10b98122,transparent 40%);
-z-index:-1;
-}
+/* CARD */
 
-.card{
-width:100%;
+.container{
+width:95%;
 max-width:420px;
-background:rgba(255,255,255,.05);
-backdrop-filter:blur(15px);
-border:1px solid rgba(16,185,129,.2);
-border-radius:24px;
-padding:30px;
+padding:30px 25px;
+border-radius:18px;
+
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(12px);
+
+border:1px solid rgba(255,255,255,0.08);
+
+box-shadow:0 20px 60px rgba(0,0,0,0.6);
 text-align:center;
-box-shadow:0 10px 40px rgba(16,185,129,.15);
 }
 
-.badge{
-display:inline-block;
-padding:6px 14px;
-background:#10b98122;
-border:1px solid #10b98155;
-border-radius:50px;
-font-size:12px;
-font-weight:700;
-color:#6ee7b7;
-margin-bottom:20px;
-}
+/* LOGO */
 
 .logo{
-width:120px;
-height:120px;
+width:80px;
+height:80px;
 border-radius:50%;
-margin:auto;
-overflow:hidden;
-border:4px solid #10b981;
-box-shadow:0 0 30px #10b98155;
+border:2px solid #FFD700;
+margin-bottom:12px;
 }
 
-.logo img{
-width:100%;
-height:100%;
-object-fit:cover;
-}
+/* TEXT */
 
 h1{
-margin-top:18px;
-font-size:34px;
-font-weight:800;
+font-size:22px;
+color:#FFD700;
+margin-bottom:6px;
 }
 
-.highlight{
-color:#6ee7b7;
+h2{
+font-size:15px;
+opacity:0.9;
+margin-bottom:10px;
 }
 
-.desc{
-margin-top:10px;
-color:#cbd5e1;
-font-size:14px;
-line-height:1.7;
-}
-
-.stats{
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:10px;
-margin-top:25px;
-}
-
-.stat{
-background:#10b98111;
-border:1px solid #10b98122;
-border-radius:12px;
-padding:12px;
-}
-
-.stat h3{
-color:#6ee7b7;
-font-size:20px;
-}
-
-.stat p{
-font-size:11px;
-opacity:.7;
-}
-
-.features{
-margin-top:20px;
-display:grid;
-grid-template-columns:repeat(2,1fr);
-gap:10px;
-}
-
-.feature{
-background:#ffffff08;
-padding:10px;
-border-radius:10px;
+.sub{
 font-size:13px;
+opacity:0.7;
+margin-bottom:18px;
 }
+
+/* BUTTON */
 
 .btn{
 display:block;
-margin-top:25px;
-padding:16px;
-background:linear-gradient(135deg,#10b981,#34d399);
-color:#04120d;
-font-weight:800;
 text-decoration:none;
-border-radius:14px;
-font-size:15px;
-transition:.3s;
+background:#22c55e;
+color:#000;
+font-weight:700;
+padding:16px;
+border-radius:10px;
+margin:12px 0;
+transition:0.3s;
 }
 
 .btn:hover{
-transform:translateY(-3px);
+background:#16a34a;
+transform:scale(1.03);
 }
+
+/* TRUST BOX */
+
+.trust{
+background:rgba(0,255,150,0.08);
+padding:10px;
+border-radius:10px;
+font-size:13px;
+margin-bottom:15px;
+border:1px solid rgba(0,255,150,0.2);
+}
+
+/* LIST */
+
+.points{
+list-style:none;
+font-size:14px;
+text-align:left;
+margin:15px 0;
+}
+
+.points li{
+margin:8px 0;
+}
+
+/* URGENCY */
+
+.timer{
+margin-top:10px;
+font-size:13px;
+color:#facc15;
+}
+
+/* SOCIAL PROOF */
+
+.proof{
+margin-top:12px;
+font-size:12px;
+opacity:0.7;
+}
+
+/* FOOTER BRAND */
 
 .footer{
-margin-top:18px;
+margin-top:20px;
 font-size:12px;
-opacity:.5;
+opacity:0.6;
 }
 
-@media(max-width:480px){
-h1{
-font-size:28px;
+.footer a{
+color:#38bdf8;
+text-decoration:none;
+font-weight:600;
 }
+
+.footer a:hover{
+text-decoration:underline;
 }
+
+/* RISK */
+
+.risk{
+margin-top:10px;
+font-size:11px;
+opacity:0.5;
+}
+
 </style>
 </head>
 
 <body>
 
-<div class="bg"></div>
+<div class="container">
 
-<div class="card">
+<img src="https://i.ibb.co/ymNRdd06/m-Sq-JESp-Ia4k-FRYh-Eo-Avl-UKu-KK97-YCIwp-OSo-o-Eee-Kftxk-Y-am9-Usco274-Wn-Hv-Ta-Eh06onz-YWLj6-Wi-Q5-ET-0.jpg" class="logo">
 
-<div class="badge">
-SEBI Registered Research Analyst
-</div>
+<h1>MOHIT_AGRAWAL </h1>
+<h2>NIFTY • BANKNIFTY • OPTIONS</h2>
 
-<div class="logo">
-<img src="https://i.ibb.co/nsL3ctFM/g-QB0bm-GNbfl-Pe-O1-I6dl1d2j7eme6-On-Bm-A-1j-ZNSFh-Zb-Uwn-LQXih-K-9-Wbq-Ishg0kibt-IW-nn9-Ep-Sf-Qur-Q2-NQh.jpg">
-</div>
-
-<h1>ALPHA <span class="highlight">TRADERS</span></h1>
-
-<p class="desc">
-Market Research • Nifty • Bank Nifty • Finnifty • Options Trading • Swing Trading
+<p class="sub">
+Daily Intraday Trading Signals & Analysis
 </p>
 
-<div class="stats">
-
-<div class="stat">
-<h3>60K+</h3>
-<p>Members</p>
-</div>
-
-<div class="stat">
-<h3>SEBI</h3>
-<p>Registered</p>
-</div>
-
-<div class="stat">
-<h3>FREE</h3>
-<p>Join</p>
-</div>
-
-</div>
-
-<div class="features">
-
-<div class="feature">📈 Nifty Calls</div>
-<div class="feature">🏦 Bank Nifty</div>
-<div class="feature">💹 Finnifty</div>
-<div class="feature">📊 Swing Trading</div>
-
-</div>
-
-<a href="https://t.me/+UzDdQFrcdjJmZTZl" class="btn" target="_blank">
-🚀 JOIN TELEGRAM FREE
+<!-- TOP BUTTON -->
+<a href="https://t.me/+FSdosDusmuI1Yjg1" class="btn">
+🚀 Join Free Telegram Channel
 </a>
 
-<div class="footer">
-
+<div class="trust">
+✔ Trusted by 5,000+ Traders <br>
+✔ Daily Consistent Setups
 </div>
 
+<ul class="points">
+<li>✔ 5–7 High Probability Trades</li>
+<li>✔ Exact Entry, SL & Target</li>
+<li>✔ Beginner Friendly Guidance</li>
+<li>✔ Live Market Updates</li>
+</ul>
+
+<!-- BOTTOM BUTTON -->
+<a href="https://t.me/+FSdosDusmuI1Yjg1" class="btn">
+🚀 Join Free Telegram Channel
+</a>
+
+<div class="timer">
+⏳ Free Access Closing Soon
+</div>
+
+<div class="proof">
+📈 Limited Seats • Active Community
+</div>
+
+<p class="risk">
+⚠ Market investments are subject to risk
+</p>
+
+<!-- CLEAN FOOTER -->
+<div class="footer">
+Powered by 
+<a href="https://t.me/+3XoqJNLxYHswNTc1" target="_blank">
+ADBULD Agency
+</a>
 </div>
 <!-- Meta Pixel Code -->
 <script>
@@ -228,14 +225,17 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1744869446872316');
+fbq('init', '1168851212055795');
 fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1744869446872316&ev=PageView&noscript=1"
+src="https://www.facebook.com/tr?id=1168851212055795&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
+</div>
+
 </body>
 </html>
+
 
 
